@@ -1,0 +1,26 @@
+/* Body Styling */
+
+body {
+    font-size: 120%;
+}
+
+
+/* Nav bar styling */
+
+.name-style{
+    font-size: 120%;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #EEEEEE;
+}
+
+/* Jumbotron Styling */
+.jumbo-section {
+    text-align: center;
+}
+
+
+footer {
+    padding: 15px;
+}
