@@ -1,15 +1,15 @@
 .header {
-    height: 50vh;
+    height: 70vh;
     background-image: linear-gradient(to right bottom, rgba($color-primary-light, 0.2),rgba($color-primary-dark, 0.2)), url(../img/header.jpg);
     background-size: cover;
     background-position: top;
     position: relative;
 
     &__maintext {
-        position: absolute;
+        position: relative;
         top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
-
+        padding: 10rem;
     }
 }
