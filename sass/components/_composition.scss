@@ -9,16 +9,8 @@
         position: absolute;
         transition: all .2s;
         &--p1 {
-            left: 0;
-            top: -2rem;
-        }
-        &--p2 {
-            right: 0;
-            top: 2rem;
-        }
-        &--p3 {
-            left: 20%;
-            top: 10rem;
+            left: 5rem;
+            
         }
 
         &:hover {
@@ -29,5 +21,41 @@
     }
     &:hover &__photo:not(:hover){
         transform: scale(0.9)
+    }
+
+    &__info-lines {
+        position: absolute;
+        font-size: 1.6rem;
+        width: 70%;
+        background-color: rgba($color-primary-light, 0.7);
+        text-transform: uppercase;
+        
+        
+        &--contact-line{
+            top: 25rem;
+            left: 5rem;
+        }
+        &--location{
+            top: 30rem;
+            left: 5rem;
+        }
+        
+        &--icon{
+            display: inline-block;
+            text-align: center;
+            background-color: rgba($color-primary-dark,0.9);
+            color: $color-white;  
+            width: 5rem;
+            height: 3rem;
+            padding: 0;
+            //padding: 0.9rem 1rem 0.9rem 1rem;
+            
+            
+        }
+        &--text {
+            color: $color-white;
+            padding: 1rem ;
+            margin:0;
+        }
     }
 }
