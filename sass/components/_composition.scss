@@ -19,37 +19,43 @@
             z-index: 20;
         }
     }
-    &:hover &__photo:not(:hover){
-        transform: scale(0.9)
-    }
+    //&:hover &__photo:not(:hover){
+        //transform: scale(0.9)
+    //}
 
     &__info-lines {
         position: absolute;
         font-size: 1.6rem;
         width: 70%;
-        background-color: rgba($color-primary-light, 0.7);
+        background-color: rgba($color-grey-dark, 0.5);
         text-transform: uppercase;
         
         
         &--contact-line{
-            top: 25rem;
+            top: 34rem;
             left: 5rem;
         }
         &--location{
-            top: 30rem;
+            top: 38rem;
             left: 5rem;
         }
         
         &--icon{
             display: inline-block;
             text-align: center;
-            background-color: rgba($color-primary-dark,0.9);
+            
             color: $color-white;  
             width: 5rem;
             height: 3rem;
             padding: 0;
             //padding: 0.9rem 1rem 0.9rem 1rem;
-            
+            &--1 {
+                background-color: rgba($color-primary-light,0.9);
+            }
+
+            &--2 {
+                background-color: rgba($color-secondary-dark,0.9);
+            }
             
         }
         &--text {
