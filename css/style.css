@@ -198,7 +198,7 @@ body {
       .composition__info-lines--icon--1 {
         background-color: rgba(41, 152, 255, 0.9); }
       .composition__info-lines--icon--2 {
-        background-color: rgba(255, 119, 48, 0.9); }
+        background-color: rgba(255, 119, 49, 0.9); }
     .composition__info-lines--text {
       color: #fff;
       padding: 1rem;
@@ -247,7 +247,7 @@ body {
       .card__side--back-1 {
         background-image: linear-gradient(to right top, #2998ff, #5643fa); }
       .card__side--back-2 {
-        background-image: linear-gradient(to right top, #ffb900, #ff7730); }
+        background-image: linear-gradient(to right top, #ffb900, #ff7731); }
       .card__side--back-3 {
         background-image: linear-gradient(to right top, #7ed56f, #28b485); }
   .card:hover .card__side--front {
@@ -262,7 +262,7 @@ body {
     .card__picture--1 {
       background-image: linear-gradient(to right top, #2998ff, #5643fa); }
     .card__picture--2 {
-      background-image: linear-gradient(to right top, #ffb900, #ff7730); }
+      background-image: linear-gradient(to right top, #ffb900, #ff7731); }
     .card__picture--3 {
       background-image: linear-gradient(to right top, #7ed56f, #28b485); }
   .card__heading {
@@ -281,7 +281,7 @@ body {
     .card__heading-span--1 {
       background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
     .card__heading-span--2 {
-      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 49, 0.85)); }
     .card__heading-span--3 {
       background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85)); }
   .card__details {
