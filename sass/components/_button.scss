@@ -8,6 +8,7 @@
         position: relative;
         transition: all 0.2s;
         font-size: $default-font-size;
+        
     }
     &:hover {
         transform: translateY(-1px);
@@ -30,6 +31,19 @@
         color: $color-grey-dark;
         &::after {
             background-color: $color-white;
+        }
+    }
+
+    &--color {
+        background-color: $color-secondary-dark;
+        color: $color-white;
+        &::after {
+            background-color: $color-secondary-dark;
+        }
+
+        &:hover {
+            background-color: $color-secondary-dark;
+            box-sizing:border-box;
         }
     }
     &::after {

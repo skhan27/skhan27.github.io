@@ -78,6 +78,11 @@ body {
   font-weight: 700;
   text-transform: uppercase; }
 
+.heading-quart {
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-transform: uppercase; }
+
 .paragraph {
   font-size: 1.6rem; }
   .paragraph:not(:last-child) {
@@ -123,6 +128,15 @@ body {
   color: #777; }
   .btn--white::after {
     background-color: #fff; }
+
+.btn--color {
+  background-color: #ff7731;
+  color: #fff; }
+  .btn--color::after {
+    background-color: #ff7731; }
+  .btn--color:hover {
+    background-color: #ff7731;
+    box-sizing: border-box; }
 
 .btn::after {
   content: "";
@@ -304,6 +318,42 @@ body {
     width: 90%;
     text-align: center; }
 
+.story {
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 3px;
+  padding: 6rem;
+  padding-left: 9rem;
+  font-size: 1.6rem; }
+  .story__shape {
+    width: 15rem;
+    height: 15rem;
+    float: left;
+    shape-outside: circle(50% at 50% 50%);
+    -webkit-shape-outside: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+    transform: translateX(-3rem); }
+  .story__img1 {
+    height: 100%; }
+  .story__img2 {
+    height: 100%; }
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  opacity: .5;
+  z-index: -1;
+  overflow: hidden; }
+  .bg-video__content {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
 .footer {
   background-color: black; }
 
@@ -353,7 +403,7 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.9), rgba(86, 67, 250, 0.8)), url(../img/features.jpg);
+  background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.91), rgba(86, 67, 250, 0.8)), url(../img/features.jpg);
   transform: skewY(-7deg);
   margin-top: -10rem; }
   .section-features > * {
@@ -363,3 +413,7 @@ body {
   background-color: #f7f7f7;
   padding: 25rem 0 0rem 0;
   margin-top: -10rem; }
+
+.section-experience {
+  padding: 15rem 0;
+  position: relative; }
