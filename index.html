@@ -38,7 +38,7 @@
                     <h3 class="heading-tertiary u-margin-bottom-small">Bachelor of Technology Graduate and Bioinformatics Grad Student</h3>
                     <p class="paragraph">
                         The multifaceted undergraduate program at McMaster University has prepared me such that I am equally at home in a lab doing
-                        bacterial transformations, in front of a computer creating a web app or data visualizations. The
+                        bacterial transformations or in front of a computer creating a web app or data visualizations. The
                         header image above is actually from one of the Biotechnology course labs where we transformed E.
                         coli cells to express the gene for Green Fluorescent Protein and then took an image using a Fluorescent
                         Microscope.
@@ -49,7 +49,7 @@
                         I am interested in pretty much everything from computer parts (AMD's Ryzen CPUs have been amazing) to things like new applications
                         of AI and blockchain. Things I am currently studying and interested in studying in the future: Java,
                         NodeJS, MongoDB, ReactJS, Data Structures and Algorithms, Docker, Tensorflow, OpenCV, Tableau, game
-                        development using Unreal Engine, Android/iOS development.
+                        development using Unreal Engine, Android development.
                     </p>
                     <h3 class="heading-tertiary u-margin-bottom-small">Learning New Languages</h3>
                     <p class="paragraph">
@@ -60,7 +60,7 @@
                         about watching and slowly understanding what is being said.
                     </p>
 
-                
+
                 </div>
 
                 <div class="col-1-of-2">
@@ -281,8 +281,8 @@
                         <h4 class="heading-quart u-margin-bottom-small">Olivieri Foods, January - August 2014</h4>
                         <p>
                             My main research project at Olivieri was to improve the flavor shelf life of their product. I was responsible for contacting
-                            various flavor companies to communicate our needs (ex: product has to be natural, enhance X and
-                            Y flavors etc). Once I had samples I made a bench scale test to determine which product from
+                            various flavor companies to communicate our needs (ex: product has to be 'natural', enhance X
+                            and Y flavors etc). Once I had samples I made a bench scale test to determine which product from
                             approximately 12 would be the best for our product. The testing cut the number down to 3 which
                             were then selected full scale testing. The selected improvements were used for products that
                             went to market in fall 2015. Other duties included setting up sensories and analyzing sensory
@@ -292,31 +292,80 @@
                 </div>
             </div>
             <div class="u-center-text u-margin-top-huge">
-                <a href="https://www.linkedin.com/in/saimzafarkhan/" class="btn-text">My LinkedIn</a>
+                <a href="https://www.linkedin.com/in/saimzafarkhan/" class="btn-text btn-text-dark">More Details On My LinkedIn</a>
             </div>
         </section>
 
-        <!--Contact form (Directs through formspree API-->
-        <!--permanently present nav button-->
+        <section class="section-contact">
+            <div class="row">
+                <div class="contact">
+                    <div class="contact__form">
+                        <form action="https://formspree.io/saim2028@hotmail.com" method="POST" class="form">
+                            <div class="u-margin-bottom-small">
+                                <h2 class="heading-secondary">
+                                    Send A Quick Email
+                                </h2>
+                            </div>
+                            <div class="form__group">
+                                <input type="text" class="form__input" placeholder="Name" id="name" name="name" required>
+                                <label for="name" class="form__label">Name</label>
+                            </div>
+                            <div class="form__group">
+                                <input type="email" class="form__input" placeholder="Email address" id="email" name="_replyto" required>
+                                <label for="email" class="form__label">Email Address</label>
+                            </div>
+                            <div class="form__group">
+                                <textarea class="form__input" placeholder="Message" id="message" rows="4" value="" name="message"></textarea>
+                                <label for="message" class="form__label">Message</label>
+                            </div>
+                            <div class="form__group">
+                                <div class="u-center-text">
+                                    <button class="btn btn--color" value="send">
+                                        Send Email
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 
 
-    <!--footer
-
     <footer class="footer">
-        <a href="https://www.facebook.com/SaimZKhan" target="_blank">
-            <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
-        </a>
-        <a href="https://twitter.com/saim2028" target="_blank">
-            <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
-        </a>
-        <a href="https://github.com/skhan27" target="_blank">
-            <i class="fa fa-github-square fa-3x" aria-hidden="true"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/saimzafarkhan/" target="_blank">
-            <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
-        </a>
-    </footer>-->
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="footer__navigation">
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="https://www.facebook.com/SaimZKhan" class="footer__link">Facebook</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="https://twitter.com/saim2028" class="footer__link">Twitter</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="https://github.com/skhan27" class="footer__link">Github</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="https://www.linkedin.com/in/saimzafarkhan/" class="footer__link">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1-of-2">
+                <p class="footer__notes">
+                    Site hosted using Github Pages. Email form handled using
+                    <a href="formspree.io" class="footer__link"> Formspree.io </a> . Credit to
+                    <a href="codingheroes.io" class="footer__link"> Jonas Schmedtmann </a> for the design used.
+                </p>
+            </div>
+        </div>
+
+
+
+    </footer>
 
 </body>
 
