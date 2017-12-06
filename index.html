@@ -14,6 +14,22 @@
 </head>
 
 <body>
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+        <label for="navi-toggle"class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
+        <div class="navigation__background">&nbsp;</div>
+        <nav class="navigation__nav">
+            <ul class="navigation__list" id="navlist">
+                <li class="navigation__item"><a href="#section-about" class="navigation__link" id="navitem">About</a></li>
+                <li class="navigation__item"><a href="#section-skills" class="navigation__link" id="navitem">Skills</a></li>
+                <li class="navigation__item"><a href="#section-projects" class="navigation__link" id="navitem">Projects</a></li>
+                <li class="navigation__item"><a href="#section-experience" class="navigation__link" id="navitem">Professional Experience</a></li>
+                <li class="navigation__item"><a href="#section-contact" class="navigation__link" id="navitem">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
     <header class="header">
         <div class="header__maintext">
             <h1 class="heading">
@@ -26,8 +42,9 @@
     </header>
 
     <main>
-        <section class="section-about">
+        <section class="section-about" id="section-about">
             <!--ABOUT-->
+            
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
                     Who am I?
@@ -86,7 +103,8 @@
                 </div>
             </div>
         </section>
-        <section class="section-features">
+        <section class="section-features" id="section-skills">
+                
             <!--languages, Data, Front end, Backend -->
             <div class="row">
                 <div class="col-1-of-4">
@@ -144,7 +162,8 @@
             </div>
         </section>
         <!--projects (card effect with details when flipped)-->
-        <section class="section-projects">
+        <section class="section-projects" id="section-projects">
+                
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
                     My Projects
@@ -240,7 +259,8 @@
         </section>
 
         <!--Professional experience-->
-        <section class="section-experience">
+        <section class="section-experience" id="section-experience">
+               
             <div class="bg-video">
                 <video class="bg-video__content" autoplay muted loop>
                     <source src="img/video.mp4" type="video/mp4">
@@ -296,7 +316,8 @@
             </div>
         </section>
 
-        <section class="section-contact">
+        <section class="section-contact" id="section-contact">
+                
             <div class="row">
                 <div class="contact">
                     <div class="contact__form">
@@ -366,7 +387,7 @@
 
 
     </footer>
-
+    <script src="general.js"></script>
 </body>
 
 </html>
