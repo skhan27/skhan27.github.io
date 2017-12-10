@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!--CSS-->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Titillium+Web:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -16,17 +16,27 @@
 <body>
     <div class="navigation">
         <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
-        <label for="navi-toggle"class="navigation__button">
+        <label for="navi-toggle" class="navigation__button">
             <span class="navigation__icon">&nbsp;</span>
         </label>
         <div class="navigation__background">&nbsp;</div>
         <nav class="navigation__nav">
             <ul class="navigation__list" id="navlist">
-                <li class="navigation__item"><a href="#section-about" class="navigation__link" id="navitem">About</a></li>
-                <li class="navigation__item"><a href="#section-skills" class="navigation__link" id="navitem">Skills</a></li>
-                <li class="navigation__item"><a href="#section-projects" class="navigation__link" id="navitem">Projects</a></li>
-                <li class="navigation__item"><a href="#section-experience" class="navigation__link" id="navitem">Professional Experience</a></li>
-                <li class="navigation__item"><a href="#section-contact" class="navigation__link" id="navitem">Contact</a></li>
+                <li class="navigation__item">
+                    <a href="#section-about" class="navigation__link" id="navitem">About</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#section-skills" class="navigation__link" id="navitem">Skills</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#section-projects" class="navigation__link" id="navitem">Projects</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#section-experience" class="navigation__link" id="navitem">Professional Experience</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#section-contact" class="navigation__link" id="navitem">Contact</a>
+                </li>
             </ul>
         </nav>
     </div>
@@ -44,7 +54,7 @@
     <main>
         <section class="section-about" id="section-about">
             <!--ABOUT-->
-            
+
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
                     Who am I?
@@ -95,7 +105,7 @@
                             <span class="composition__info-lines--icon composition__info-lines--icon--2">
                                 <i class="fa fa-location-arrow" aria-hidden="true"></i>
                             </span>
-                            <span class="composition__info-lines--text composition__info-lines--text --2">Ottawa/Missisauga, ON, Canada</span>
+                            <span class="composition__info-lines--text composition__info-lines--text --2">Ottawa/Missisauga</span>
                         </div>
 
                     </div>
@@ -104,7 +114,7 @@
             </div>
         </section>
         <section class="section-features" id="section-skills">
-                
+
             <!--languages, Data, Front end, Backend -->
             <div class="row">
                 <div class="col-1-of-4">
@@ -163,7 +173,7 @@
         </section>
         <!--projects (card effect with details when flipped)-->
         <section class="section-projects" id="section-projects">
-                
+
             <div class="u-center-text u-margin-bottom-big">
                 <h2 class="heading-secondary">
                     My Projects
@@ -186,13 +196,19 @@
                                     <li>HTML</li>
                                     <li>CSS</li>
                                     <li>Sass</li>
-
+                                    <li>Responsive Design</li>
                                 </ul>
 
                             </div>
                         </div>
                         <div class="card__side card__side--back card__side--back-1">
                             <div class="card__cta">
+                                <div class="card__detailbox">
+                                    <p class="card__head">Description:</p>
+                                    <p class="card__desc">Built to show my skills, projects and experiences in a 
+                                        more appealing and accessible form.
+                                    </p>
+                                </div>
                                 <a href="https://github.com/skhan27/skhan27.github.io" class="btn btn--white">See Project Code</a>
                             </div>
                         </div>
@@ -212,7 +228,7 @@
                                 <ul>
                                     <li>Built Using Python</li>
                                     <li>1v1 Game</li>
-                                    <li></li>
+                                   
 
                                 </ul>
 
@@ -220,6 +236,13 @@
                         </div>
                         <div class="card__side card__side--back card__side--back-2">
                             <div class="card__cta">
+                                <div class="card__detailbox">
+                                    <p class="card__head">Description:</p>
+                                    <p class="card__desc">Player vs Player game of tic tac toe in the console. Future changes intended: 
+                                        1) making the game playable with different board sizes and even 3d 
+                                        tic tac toe. 2) Add option to play against the computer.
+                                    </p>
+                                </div>
                                 <a href="https://github.com/skhan27/python-tictactoe" class="btn btn--white">See Project Code</a>
                             </div>
                         </div>
@@ -247,6 +270,13 @@
                         </div>
                         <div class="card__side card__side--back card__side--back-3">
                             <div class="card__cta">
+                                <div class="card__detailbox">
+                                    <p class="card__head">Description:</p>
+                                    <p class="card__desc">Intended as a way for a person to manage their multiple
+                                        accounts with different banks. Will manage different types of 
+                                        transactions and store in a Sqlite database.
+                                    </p>
+                                </div>
                                 <a href="https://github.com/skhan27/BankAccountManager" class="btn btn--white">See Project Code</a>
                             </div>
                         </div>
@@ -260,7 +290,7 @@
 
         <!--Professional experience-->
         <section class="section-experience" id="section-experience">
-               
+
             <div class="bg-video">
                 <video class="bg-video__content" autoplay muted loop>
                     <source src="img/video.mp4" type="video/mp4">
@@ -317,7 +347,7 @@
         </section>
 
         <section class="section-contact" id="section-contact">
-                
+
             <div class="row">
                 <div class="contact">
                     <div class="contact__form">

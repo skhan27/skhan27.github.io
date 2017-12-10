@@ -8,9 +8,19 @@
         z-index: 10;
         position: absolute;
         transition: all .2s;
+        @include respond(tab-port){
+            float: left;
+            position: relative;
+            width: 33.33%;
+            box-shadow: 0 1.50rem 3rem rgba($color-black, .2);
+        }
+        
         &--p1 {
             left: 5rem;
-            
+            @include respond(tab-port){
+                top: 0;
+                left: 0;
+            }
         }
 
         &:hover {
@@ -25,19 +35,32 @@
 
     &__info-lines {
         position: absolute;
+        display: inline-block;
         font-size: 1.6rem;
         width: 70%;
         background-color: rgba($color-grey-dark, 0.5);
         text-transform: uppercase;
+        margin-top: 1rem;
         
-        
+        @include respond(tab-port){
+            position: relative;
+        }
+
         &--contact-line{
             top: 34rem;
             left: 5rem;
+            @include respond(tab-port){
+                top: 0rem;
+                left: 0rem;
+            }
         }
         &--location{
             top: 38rem;
             left: 5rem;
+            @include respond(tab-port){
+                top: 0rem;
+                left: 0rem;
+            }
         }
         
         &--icon{

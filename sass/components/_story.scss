@@ -8,6 +8,11 @@
     padding-left: 9rem;
     font-size: $default-font-size;
 
+    @include respond(tab-port){
+        width: 100%;
+    }
+
+
     &__shape {
         width: 15rem;
         height: 15rem;
