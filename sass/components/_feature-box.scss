@@ -6,9 +6,10 @@
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
     transition: transform 0.3s;
+    height: 22em;
     
     @include respond(tab-port){
-       padding: 2rem; 
+       padding: 2em; 
     }
     &__icon{
         font-size: 6rem;
